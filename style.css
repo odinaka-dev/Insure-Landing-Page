@@ -304,7 +304,7 @@ div.footer-main {
   display: none;
 }
 /* the mobile and tablet responsive screen size */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
     /* the navigation responsive desigb begins from here */
 header {
   color: #000;
@@ -404,7 +404,7 @@ nav.main-navigation {
       padding-left: 14px;
     }
     .bannerText h1 {
-      font-size: 60px;
+      font-size: 46px;
       text-transform: capitalize;
       color: var(--secondarysecond);
       font-family: "DM Serif Display", serif;
@@ -476,7 +476,7 @@ nav.main-navigation {
     .differences {
       color: var(--tetiary);
       font-family: "DM Serif Display", serif;
-      font-size: 53px;
+      font-size: 46px;
       text-align: center;
     }
     .Flex-container {
@@ -497,13 +497,14 @@ nav.main-navigation {
       padding: 10px 0px;
       text-transform: capitalize;
       font-family: "DM Serif Display", serif;
-      font-size: 25px;
+      font-size: 20px;
     }
     .Flex-container p {
       color: var(--secondary);
       line-height: 1.5;
       font-size: 16px;
       margin-right: 0px;
+      margin: 10px 0px;
     }
 
 
@@ -515,7 +516,7 @@ nav.main-navigation {
       color: var(--secondarysecond);
       max-width: 400px;
       margin: 0px auto;
-      margin-bottom: 100px;
+      margin-bottom: 0px;
     }
     .subfooter-header {
       display: flex;
@@ -586,11 +587,11 @@ footer {
     border-bottom: 1px solid var(--primarysecond);
 }
 .socials {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .socials svg {
     margin-right: 0px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .socials svg:hover {
     cursor: pointer;
